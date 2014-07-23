@@ -17,6 +17,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This README explains how the script - run_analysis.R - cleans and processes the data.  There are no dependencies for this run_analysis.R.  run_analysis.R is located in the same repo as this README.
 
+The run_analysis.R script puts out the data file tidy_data.txt which can be read in R using the read.table function - read.table("tidy_data.txt") (this will only work if you have the file in your working directory).
+
 #Downloading the data
 The data was downloaded and unzipped with the following code:
 ```{r, eval = FALSE}
